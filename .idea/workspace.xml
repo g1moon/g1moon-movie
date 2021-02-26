@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c357bdc7-6c2b-47eb-bd6c-8c42c1de8a56" name="Default Changelist" comment=" : mongoURI 추가" />
+    <list default="true" id="c357bdc7-6c2b-47eb-bd6c-8c42c1de8a56" name="Default Changelist" comment=" : mongoURI 추가">
+      <change afterPath="$PROJECT_DIR$/client/src/components/views/LandingPage/Sections/MoreMovieSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/views/LandingPage/Sections/TopMovieSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetailPage/MovieDetailPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetailPage/Sections/MovieActorSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetailPage/Sections/MovieInfoSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetailPage/Sections/ReplySection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/MovieLike.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +65,7 @@
       <workItem from="1614315245707" duration="110000" />
       <workItem from="1614315374337" duration="2803000" />
       <workItem from="1614334246217" duration="611000" />
+      <workItem from="1614334949332" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="add: index.js 추가">
       <created>1614316036057</created>
@@ -92,7 +102,42 @@
       <option name="project" value="LOCAL" />
       <updated>1614334454222</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat : Comment 모델 추가">
+      <created>1614335513508</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614335513508</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat : comment 라우터 추가">
+      <created>1614335540356</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614335540356</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat : movieLike 라우터 추가">
+      <created>1614335563311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614335563311</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat : LandingPage에 영화들 보여주기 기능 추가">
+      <created>1614335626702</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614335626702</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat : 유저가 특정 영화를 Like하는 기능 추가">
+      <created>1614335688380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614335688380</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +153,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: index.js 추가" />
@@ -115,6 +161,11 @@
     <MESSAGE value="add: 로그인 페이지 추가" />
     <MESSAGE value="feat: API_KEY 추가" />
     <MESSAGE value="add : mongoURI 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : mongoURI 추가" />
+    <MESSAGE value="feat : Comment 모델 추가" />
+    <MESSAGE value="feat : comment 라우터 추가" />
+    <MESSAGE value="feat : movieLike 라우터 추가" />
+    <MESSAGE value="feat : LandingPage에 영화들 보여주기 기능 추가" />
+    <MESSAGE value="feat : 유저가 특정 영화를 Like하는 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 유저가 특정 영화를 Like하는 기능 추가" />
   </component>
 </project>
